@@ -1,5 +1,13 @@
 package com.logically.school;
 
+/**
+ * A train is 100 meters long and moves at a speed of 40 km/h. 
+ * A person is walking in the same direction as the train at 10 km/h.
+		1. Convert the speed of the train and the person from km/h to m/s.
+		2.Find the relative speed between the train and the person.
+		3.Calculate the time required for the train to completely pass the person.
+ */
+
 public class TrainCrossingTime {
 	public static void main(String[] args) {
 

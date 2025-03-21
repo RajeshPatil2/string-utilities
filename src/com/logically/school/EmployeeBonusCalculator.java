@@ -2,6 +2,18 @@ package com.logically.school;
 
 import java.util.Scanner;
 
+/**
+ * A company provides bonuses to its employees based on the following rules:
+ * 
+ * If an employee has more than 5 years of experience and a salary greater than
+ * 50,000, they will receive a 20% bonus. 
+ * If an employee has more than 5 years of experience but a salary of 50,000 or less, 
+ * they will receive a 15% bonus.
+ * If an employee has less than 5 years of experience and a salary greater than
+ * 30,000, they will receive a 10% bonus. Otherwise, they will receive a 5%
+ * bonus.
+ */
+
 public class EmployeeBonusCalculator {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
